@@ -4,8 +4,7 @@
   "description": "Realtime chat app qith rooms",
   "main": "server.js",
   "scripts": {
-    "start": "./node_modules/.bin/netlify-lambda serve ChatCode.io",
-    "build": "./node_modules/.bin/netlify-lambda build ChatCode.io",
+    "start": "node server",
     "dev": "nodemon server"
   },
   "author": "Shamik Bera",
